@@ -1,0 +1,100 @@
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+html {
+    font-size: 10px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+body {
+    background-color: hsl(210, 46%, 95%) ;
+    min-height: 100vh;
+    place-content: center;
+    display: grid;
+}
+
+.content-wrapper{
+    display: flex;
+    height: 400px;
+    width: 500px;
+    align-items: center;
+    padding-left: 90px;
+}
+
+.drawer img{
+    width: 140px;
+    height: 150px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+article{
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    border-radius:0px 5px 5px 0px;
+}
+
+
+article h1{
+    font-size: 10px;
+    padding: 7px 20px 0px 20px ;
+}
+
+
+article p{
+    font-size: 7px;
+    padding-left: 20px;
+}
+
+
+.bio{
+    padding-left: 20px;
+    display: flex;
+
+
+}
+.bio img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 5px;
+
+}
+
+
+.bio-wrapper{
+    font-size: 5px;
+    font-weight: bold;
+    display: flex;
+}
+
+.bio-wrapper h2{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 7px;
+    font-weight: bold;
+}
+
+.bio-wrapper strong{
+    font-weight: lighter;
+    
+}
+
+.share{
+    margin-left: 80px;
+    margin-top: 15px;
+    border: 1px solid white;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    padding: 2px;
+    height: 10px;
+    width: 10px;
+    position: relative;
+
+}
